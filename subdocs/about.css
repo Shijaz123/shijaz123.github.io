@@ -1,0 +1,183 @@
+#header{
+    width: auto;
+    height: 10px;
+  
+  }
+  #heading{
+  
+    width: auto;
+  }
+  #logo{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 22px;
+  
+    
+  }
+  h2{
+    position: relative;
+    left: 55px;
+    bottom: 23px;
+  
+  }
+  
+  #brand{
+    font-family: 'teko';
+    font-size: 40px;
+  }
+  #contact{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .link a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.5s ease;
+  }
+  .link a:hover{
+    color: #fcba03;
+    
+  }
+  .brand{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .social-media ul{
+    display: inline;
+  }
+  .social-media ul li{
+    float: left;
+    margin-right: 10px;
+   /* margin-left: 10px;*/
+  }
+  .social-media ul li a{
+    font-size: 20px;
+    color: #999;
+    letter-spacing: 0.1cm;
+    transform: all 0.5s ease-in-out 0s;
+  
+  }
+  .social-media ul li a:hover{
+    color: #fff;
+  }
+  /* about section*/
+ 
+
+  .about-title{
+    font-family:  sans-serif;
+    margin-bottom: -35px;
+  }
+  .jumbotron {
+    background-image: url("https://images.unsplash.com/photo-1559762717-99c81ac85459?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .jumbotron h1{
+    font-weight: 500;
+  }
+  .jumbotron h3{
+    font-weight: bold;
+  }
+  .jumbotron p{
+    font-weight: bold;
+  }
+  /* boxes*/
+  .boxes{
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .boxes .box10{
+    background:#000;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    /*width: calc(400px - 30px);
+    height: calc(300px - 30px);*/
+    width: 250px;
+    height: 300px;
+  }
+  .boxes .box10 .icon10{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: 0.5s;
+    z-index: 1;    
+  }
+  .boxes .box10:hover .icon10{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .boxes .box10 .icon10 .fa{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 80px;
+    transform: translate(-50%,-50%);
+    transition: 0.5s;
+    color: #fff;
+  }
+  .boxes .box10:hover .icon10 .fa{
+    font-size: 40px;
+  }
+  .boxes .box10 .note10{
+    position: absolute;
+    top: 100%;
+    height:calc(100% - 100px) ;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0;
+  }
+  .boxes .box10 .note10{
+    top: 100px;
+    opacity: 1;
+  }
+  .boxes .box10 .note10 h3{
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+  }
+  .boxes .box10 .note10 p{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+  }
+  .boxes .box10:nth-child(1) .icon10{
+    background: #319635;
+  }
+  .boxes .box10:nth-child(1){
+    background: #4caf50;
+  }
+  .boxes .box10:nth-child(2) .icon10{
+    background: #d03852;
+  }
+  .boxes .box10:nth-child(2){
+    background: #f54967;
+  }
+  .boxes .box10:nth-child(3) .icon10{
+    background: #23798e;
+  }
+  .boxes .box10:nth-child(3){
+    background: #328fa5;
+  }
+
+  
+  
+
+     
+
+    
+  
+
+  
