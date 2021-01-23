@@ -98,7 +98,7 @@
     /*width: calc(400px - 30px);
     height: calc(300px - 30px);*/
     width: 250px;
-    height: 300px;
+    min-height: 314px;
   }
   .boxes .box10 .icon10{
     position: absolute;
